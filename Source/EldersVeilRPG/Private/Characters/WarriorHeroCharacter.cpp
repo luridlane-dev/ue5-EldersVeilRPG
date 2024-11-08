@@ -19,7 +19,7 @@ AWarriorHeroCharacter::AWarriorHeroCharacter()
 
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(GetRootComponent());
-	CameraBoom->TargetArmLength = 180.f;
+	CameraBoom->TargetArmLength = 195.f;
 	CameraBoom->SocketOffset = FVector(0.f, 50.f, 80.f);
 	CameraBoom->bUsePawnControlRotation = true;
 
